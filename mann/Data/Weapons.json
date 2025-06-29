@@ -1,0 +1,8 @@
+{
+  "Weapons": [
+    "weaponID",
+    "name",
+    "category",
+    "cost"
+  ]
+}

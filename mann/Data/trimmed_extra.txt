@@ -1,0 +1,322 @@
+id/
+  int
+eventId/
+  int
+team1Id/
+  int
+team2Id/
+  int
+team1Score/
+  int
+team2Score/
+  int
+startDate/
+  str
+bestOf/
+  int
+stage/
+  int
+bracket/
+  str
+winCondition/
+  NoneType
+vlrId/
+  str
+vodUrl/
+  NoneType
+pickban/
+  [list of 0]
+
+eventName/
+  str
+eventSlug/
+  str
+eventChildLabel/
+  str
+eventRegionId/
+  int
+parentEventId/
+  int
+parentEventName/
+  str
+parentEventSlug/
+  str
+
+team1/
+  id/
+    int
+  name/
+    str
+  shortName/
+    str
+  liquipediaUrl/
+    str
+  vlrUrl/
+    str
+  regionId/
+    int
+  rank/
+    int
+  regionRank/
+    int
+  vctRegion/
+    str
+  division/
+    str
+
+    ---------same as team 1--------------
+team2/
+  id/
+    int
+  name/
+    str
+  shortName/
+    str
+  description/
+    str
+  websiteUrl/
+    str
+  logoUrl/
+    str
+  liquipediaUrl/
+    str
+  twitterUrl/
+    str
+  twitchUrl/
+    str
+  vlrUrl/
+    str
+  youtubeUrl/
+    str
+  foundedDate/
+    str
+  countryId/
+    int
+  regionId/
+    int
+  rank/
+    int
+  regionRank/
+    int
+  aliases/
+    NoneType
+  vctRegion/
+    str
+  division/
+    str
+
+    -------------same as team1-----
+matches/
+  [list of 3]
+    players/
+      [list of 10]
+        matchId/
+          int
+        playerId/
+          int
+        teamNumber/
+          int
+        agentId/
+          int
+        player/
+          id/
+            int
+          ign/
+            str
+    id/
+      int
+    patchId/
+      int
+    seriesId/
+      int
+    seriesMatchNumber/
+      int
+    riotId/
+      str
+    mapId/
+      int
+    startDate/
+      str
+    lengthMillis/
+      int
+    region/
+      str
+    attackingFirstTeamNumber/
+      int
+    winningTeamNumber/
+      int
+    winCondition/
+      str
+    teamsInvertedInStream/
+      bool
+    team1Score/
+      int
+    team2Score/
+      int
+    vlrId/
+      NoneType
+    vodUrl/
+      str
+    stats/
+      [list of 10]
+        matchId/
+          int
+        playerId/
+          int
+        score/
+          int
+        roundsPlayed/
+          int
+        kills/
+          int
+        deaths/
+          int
+        assists/
+          int
+        rating/
+          str
+        attackingRating/
+          str
+        defendingRating/
+          str
+          ---Take rounds from the stats, not the matches---
+stats/
+  rounds/
+    [list of 39]
+      id/
+        int
+      matchId/
+        int
+      number/
+        int
+      winCondition/
+        str
+      winningTeamNumber/
+        int
+      ceremony/
+        str
+      deletedOn/
+        NoneType
+      team1LoadoutTier/
+        NoneType
+      team2LoadoutTier/
+        NoneType
+      attackingTeamNumber/
+        int
+  kills/
+    [list of 262]
+      matchId/
+        int
+      id/
+        int
+      roundId/
+        int
+      killerId/
+        int
+      victimId/
+        int
+      roundTimeMillis/
+        int
+      gameTimeMillis/
+        int
+      victimLocationX/
+        int
+      victimLocationY/
+        int
+      damageType/
+        str
+      abilityType/
+        NoneType
+      weaponId/
+        int
+      secondaryFireMode/
+        bool
+      first/
+        bool
+      tradedByKillId/
+        NoneType
+      tradedForKillId/
+        NoneType
+      weapon/
+        str
+      weaponCategory/
+        str
+      killerTeamNumber/
+        int
+      victimTeamNumber/
+        int
+      side/
+        str
+      assistants/
+        [list of 1]
+          NoneType
+  xvys/
+    [list of 130]
+      matchId/
+        int
+      teamId/
+        int
+      teamNumber/
+        int
+      side/
+        str
+      situation/
+        str
+      team1Count/
+        int
+      team2Count/
+        int
+      delta/
+        int
+      wins/
+        int
+      losses/
+        int
+playerStats/
+  [list of 390]
+    matchId/
+      int
+    roundId/
+      int
+    roundNumber/
+      int
+    playerId/
+      int
+    teamNumber/
+      int
+    side/
+      str
+    acs/
+      int
+    kills/
+      int
+    firstKills/
+      int
+    deaths/
+      int
+    firstDeaths/
+      int
+    assists/
+      int
+    damage/
+      int
+    headshots/
+      int
+    bodyshots/
+      int
+    legshots/
+      int
+    plants/
+      int
+    defusals/
+      int
+    clutches/
+      int
+    clutchOpponents/
+      int
+    clutchOpportunities/
+      int
+    impact/
+      str
+    kastRounds/
+      int

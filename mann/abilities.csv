@@ -1,0 +1,25 @@
+id,name,type,agentId,damages
+3,Aftershock,3,1,True
+9,Molly,1,8,True
+17,Orbital Strike,ultimate,8,True
+20,Headhunter,1,17,True
+21,Tour de Force,ultimate,17,True
+13,Trapwire,3,3,True
+25,Mosh Pit,3,21,True
+14,Bladestorm,ultimate,12,True
+19,Fragment,3,16,True
+5,Nanoswarm,3,5,True
+6,Turret,2,5,True
+23,Fast Lane,3,18,True
+24,Overdrive,ultimate,18,True
+22,Relay Bolt,1,18,True
+11,Blaze,3,7,True
+7,Hot Hands,2,7,True
+8,Blast Pack,1,2,True
+4,Boombot,3,2,True
+2,Paint Shells,2,2,True
+16,Showstopper,ultimate,2,True
+12,Trailblazer,1,13,True
+15,Hunters Fury,ultimate,4,True
+1,Shock Dart,1,4,True
+18,Snake Bite,3,6,True

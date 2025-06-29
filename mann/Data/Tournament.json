@@ -1,0 +1,13 @@
+{
+  "Tournament": [
+    "eventID",
+    "eventType",
+    "eventFormat",
+    "eventTier",
+    "startDate",
+    "eventName",
+    "eventSlug",
+    "childEvent",
+    "childEventSlug"
+  ]
+}

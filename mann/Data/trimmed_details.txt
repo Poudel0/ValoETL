@@ -1,0 +1,108 @@
+id/
+  int
+playerStats/
+  [list of 10]
+    matchId/
+      int
+    playerId/
+      int
+    score/
+      int
+    roundsPlayed/
+      int
+    kills/
+      int
+    deaths/
+      int
+    assists/
+      int
+    playtimeMillis/
+      int
+    impact/
+      str
+    rating/
+      str
+    attackingRating/
+      str
+    defendingRating/
+      str
+events/
+  [list of 193]
+    roundId/
+      int
+    roundNumber/
+      int
+    roundTimeMillis/
+      int
+    killId/
+      NoneType
+    tradedByKillId/
+      NoneType
+    tradedForKillId/
+      NoneType
+    bombId/
+      NoneType
+    resId/
+      NoneType
+    playerId/
+      NoneType
+    assists/
+      [list of 0]
+    referencePlayerId/
+      NoneType
+    eventType/
+      str
+    damageType/
+      NoneType
+    weaponId/
+      NoneType
+    ability/
+      NoneType
+    impact/
+      str
+    attackingWinProbabilityBefore/
+      str
+    attackingWinProbabilityAfter/
+      str
+    attackingTeamNumber/
+      int
+locations/
+  [list of 1188]
+    roundNumber/
+      int
+    playerId/
+      int
+    roundTimeMillis/
+      int
+    locationX/
+      float
+    locationY/
+      float
+    viewRadians/
+      float
+economies/
+  [list of 220]
+    roundId/
+      int
+    roundNumber/
+      int
+    playerId/
+      int
+    agentId/
+      int
+    score/
+      int
+    weaponId/
+      int
+    armorId/
+      NoneType
+    remainingCreds/
+      int
+    spentCreds/
+      int
+    loadoutValue/
+      int
+    survived/
+      bool
+    kast/
+      bool
